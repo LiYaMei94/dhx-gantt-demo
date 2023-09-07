@@ -112,7 +112,7 @@ export default {
       gantt.config.end_date = new Date("2023-12-20");
 
       // 设置左侧任务栏
-      gantt.config.columns = columns;
+      gantt.config.columns = columns();
 
       // 鼠标悬浮提示配置
       gantt.templates.tooltip_text = function (start, end, task) {

@@ -3,7 +3,7 @@
     <router-link to="/">甘特图</router-link> |
     <router-link to="/gantt">Gantt Demo</router-link>
     <router-link :to="{ name: 'GanttBasic' }">基础甘特图</router-link>
-    <router-link :to="{ name: 'GanttMarker' }">甘特图 marker</router-link>
+    <!-- <router-link :to="{ name: 'GanttMarker' }">甘特图 marker</router-link> -->
   </div>
   <router-view />
 </template>
